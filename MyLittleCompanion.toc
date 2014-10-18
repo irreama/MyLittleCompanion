@@ -1,6 +1,6 @@
-## Interface: 50200
+## Interface: 60000
 ## Title: My Little Companion
-## Author: Musou
+## Author: Irreama
 ## Notes: Pony companions
 ## SavedVariables: MLC_FileVersion
 ## SavedVariablesPerCharacter: MLC_DB
