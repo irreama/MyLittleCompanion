@@ -1,0 +1,16 @@
+## Interface: 50200
+## Title: My Little Companion
+## Author: Musou
+## Notes: Pony companions
+## SavedVariables: MLC_FileVersion
+## SavedVariablesPerCharacter: MLC_DB
+
+MyLittleCompanion_CreateFrame.lua
+MyLittleCompanion_PonyConfig.lua
+MyLittleCompanion_StateHandler.lua
+MyLittleCompanion_Options.lua
+MyLittleCompanion_Bubble.lua
+
+MyLittleCompanion_OnLoad.lua
+
+
