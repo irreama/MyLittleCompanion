@@ -12,5 +12,3 @@ MyLittleCompanion_Options.lua
 MyLittleCompanion_Bubble.lua
 
 MyLittleCompanion_OnLoad.lua
-
-
