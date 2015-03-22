@@ -45,6 +45,9 @@ MLP_PonySelectItems = {
     { text = "|cff33FF99" .. "Lyra", 																															func = function() MLC_SetPony("Lyra"); 					end },
     { text = "|cff0066FF" .. "Vinyl " .. "|cff00CCFF" .. "Scratch", 																							func = function() MLC_SetPony("Vinyl"); 				end },
     { text = "|cff0066FF" .. "Vinyl " .. "|cff00CCFF" .. "Scratch" .. "|cffffffff" .. " (No Flashing)", 														func = function() MLC_SetPony("Vinyl_NoFlash"); 		end },
+    { text = "|cffFFCC22" .. "Sunset Shimmer", 																													func = function() MLC_SetPony("SunsetShimmer"); 		end },
+    { text = "|cff1144AA" .. "Princess Luna (S2)", 																												func = function() MLC_SetPony("PrincessLuna"); 			end },
+    { text = "|cffC4C4B8" .. "Octavia", 																														func = function() MLC_SetPony("Octavia"); 			end },
 	
     { text = "", isTitle = true},
     { text = "|cffffffff" .. "--- Misc ---", isTitle = true},

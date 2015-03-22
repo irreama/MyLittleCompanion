@@ -508,3 +508,55 @@ MLC_AnimationData["RainbowDash"] = {
 		{ 	7,	1,	16,	106,  50, 0},		--Fly (Fast)	-- row, start, animation_amount, size, delay_(ms), pause(ms)
 	},	
 };
+
+--Irreama's Additions
+MLC_AnimationData["SunsetShimmer"] = {
+	["SizeModifier"] = 128,
+	["Width"] 	= 2048,
+	["Height"] 	= 256,
+	["ImageHeight"] = 128,
+	["BorderColor"]		= "ffffff",
+	["BackdropColor"]	= "ffffff",
+	["TextColor"]		= "ffffff",
+	["Idle"] = {
+		{	1,	1,	16,	128,	75,		5000},  --	stand	-- row, start, animation_amount, size, delay_(ms), pause(ms)
+	},
+	["Walk"] = {
+		{	2,	1,	16,	128,	50,	0},  --	walk	-- row, start, animation_amount, size, delay_(ms), pause(ms)
+	},
+};
+
+MLC_AnimationData["PrincessLuna"] = {
+	["SizeModifier"] = 128,
+	["Width"] 	= 4096,
+	["Height"] 	= 512,
+	["ImageHeight"] = 128,
+	["BorderColor"]		= "ffffff",
+	["BackdropColor"]	= "ffffff",
+	["TextColor"]		= "ffffff",
+	["Idle"] = {
+		{	1,	1,	16,	128,	100, 0},  --	stand	-- row, start, animation_amount, size, delay_(ms), pause(ms)
+	},
+	["Walk"] = {
+		{	2,	1,	32,	128,	50,	0},  --	walk	-- row, start, animation_amount, size, delay_(ms), pause(ms)
+		{	3,	1,	32,	128,	50,	0},  --	fly	-- row, start, animation_amount, size, delay_(ms), pause(ms)
+	},
+};
+
+--Octavia (Thank you Lanciufer for the sprite)
+MLC_AnimationData["Octavia"] = {
+	["SizeModifier"] = 125,
+	["Width"] 	= 2048,
+	["Height"] 	= 512,
+	["ImageHeight"] = 125,
+	["BorderColor"]		= "ffffff",
+	["BackdropColor"]	= "ffffff",
+	["TextColor"]		= "ffffff",
+	["Idle"] = {
+		{	2,	1,	13,	125, 100, 5000},  --	stand	-- row, start, animation_amount, size, delay_(ms), pause(ms)
+		{	3,	1,	8,	125, 125, 0},  --	stand	-- row, start, animation_amount, size, delay_(ms), pause(ms)
+	},
+	["Walk"] = {
+		{	1,	1,	16,	125, 50,	0},  --	walk	-- row, start, animation_amount, size, delay_(ms), pause(ms)
+	},
+};
